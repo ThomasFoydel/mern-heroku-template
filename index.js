@@ -2,10 +2,11 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
+const cors = require('cors');
 
 // static file declaration
 app.use(express.static(path.join(__dirname, 'client/build')));
-
+app.use(cors());
 // production mode
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, 'client/build')));
