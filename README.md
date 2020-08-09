@@ -1,6 +1,10 @@
 # a template for mern projects to be deployed to heroku
 
-All of these commands must be run in a terminal <u>from the root folder of your project</u>:
+To make it run locally you need to run <b>npm i</b> from the root folder, then <b>cd client</b> and <b>npm i</b> again.
+
+Rename your React app project folder "client" and replace the client folder with it. Import/use your express routes in index.js.
+
+To deploy to Heroku, all of these commands must be run in a terminal <u>from the root folder of your project</u>:
 
 <b>heroku login</b>
 
