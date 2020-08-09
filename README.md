@@ -4,6 +4,7 @@ All of these commands must be run in a terminal <u>from the root folder of your 
 
 <b>heroku login</b>
 
+Only run this one if you have not already initialized the git repository. If you already have your project hooked up to a GitHub repo do not run this one.
 <b>git init</b>
 
 <b>git add .</b>
