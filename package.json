@@ -2,7 +2,7 @@
   "name": "merntemplate",
   "version": "1.0.0",
   "description": "A MERN template for deployment to Heroku",
-  "author": "Thomas Foydel",
+  "author": "",
   "main": "index.js",
   "scripts": {
     "client-install": "npm install --prefix client",
@@ -15,14 +15,15 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "engines": {
-    "node": "10.15.3",
-    "npm": "6.9.0"
+    "node": "12.18.3",
+    "npm": "6.14.6"
   },
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.12"
   },
   "devDependencies": {
     "concurrently": "^5.1.0",
