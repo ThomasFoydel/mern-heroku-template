@@ -49,6 +49,7 @@ axios.post("/api/auth/register", {formDate}).then(result=>{....}).catch(err=>{..
 
 This is being set up by setupProxy.js in development, and automatically handled by Heroku in deployment
 So you will want to leave setupProxy.js exactly as it is now inside /client/src
+If you want to read more about what's going on here check out <a src="https://create-react-app.dev/docs/proxying-api-requests-in-development/">this section of the Create React App docs</a>
 
 If you already have a React app built, just rename your React app project folder "client" and replace the client folder with it, and if you are planning to set up a backend or already have a backend, make sure to copy over the setupProxy.js file to your React project's src folder, and in your React project's directory, run
 
@@ -70,7 +71,7 @@ you can just use an absolute path starting, with the src folder being the root l
 import LoginForm from "components/LoginForm/LoginForm"
 ```
 
-This is because of the jsconfig.json file inside of the src folder
+This is because of the jsconfig.json file inside of the src folder. For more on that, check out <a href='https://hackernoon.com/react-pro-tip-use-absolute-imports-for-better-readability-and-easy-refactoring-2ad5c7f2f957'>this article from HackerNoon.</a>
 
 # Deployment
 
