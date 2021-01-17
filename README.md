@@ -58,6 +58,20 @@ npm i -D http-proxy-middleware
 
 If you already have server routes written you can import/use your express routes in index.js. Be sure to use the same /api/ prefix for requests between the front end and backend.
 
+In the React front end you can import your components with absolute paths instead of relative paths, so instead of
+
+```
+import LoginForm from "../../../../components/LoginForm/LoginForm"
+```
+
+you can just use an absolute path starting, with the src folder being the root like
+
+```
+import LoginForm from "components/LoginForm/LoginForm"
+```
+
+This is because of the jsconfig.json file inside of the src folder
+
 # Deployment
 
 all of these commands must be run in a terminal <u>from the <b>root</b> folder of your project</u>:
