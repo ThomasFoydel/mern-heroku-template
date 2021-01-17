@@ -1,8 +1,8 @@
 {
-  "name": "merntemplate",
+  "name": "mernherokutemplate",
   "version": "1.0.0",
   "description": "A MERN template for deployment to Heroku",
-  "author": "",
+  "author": "Thomas Foydel",
   "main": "index.js",
   "scripts": {
     "client-install": "npm install --prefix client",
