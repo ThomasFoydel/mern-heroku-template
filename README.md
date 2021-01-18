@@ -1,6 +1,6 @@
 # MERN HEROKU TEMPLATE
 
-A template for mern projects to be deployed to Heroku
+A template for MERN projects to be deployed to Heroku.
 
 # Setup
 
