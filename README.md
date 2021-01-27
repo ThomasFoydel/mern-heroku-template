@@ -1,6 +1,12 @@
-# MERN HEROKU TEMPLATE
+<h1 align='center'>MERN HEROKU TEMPLATE</h1>
+<p align="center">A template for MERN projects to be deployed to Heroku.</p>
 
-A template for MERN projects to be deployed to Heroku.
+<p align='center'><a href='#Setup'>Setup</a></p>
+<p align='center'><a href='#Usage'>Usage</a></p>
+<p align='center'><a href='#Deployment'>Deployment</a></p>
+<p align='center'><a href='#License'>License</a></p>
+
+<p align="center"><a href="https://youtu.be/3dv2NQjdstU"><img src="assets/tutorial.jpg" alt="link to youtube tutorial"></img></a></p>
 
 # Setup
 
@@ -81,7 +87,7 @@ all of these commands must be run in a terminal <u>from the <b>root</b> folder o
 heroku login
 ```
 
-Only run this one if you have not already initialized the git repository. If you already have your project hooked up to a GitHub repo do not run this one:
+Only run this one if you have not already initialized the git repository. If you already have your project hooked up to a GitHub repo do not run this one. If you cloned this repository
 
 ```
 git init
@@ -120,3 +126,7 @@ Heroku gives you a random app name and you probably don't want to build a brand 
 ```
 heroku open
 ```
+
+# License
+
+<a href='https://opensource.org/licenses/MIT'><img alt="License" src="https://img.shields.io/badge/license-MIT-black.svg"></img></a>
