@@ -38,7 +38,7 @@ Server routes paths should begin with
 /api/
 ```
 
-Since the front end proxies requests to any url beginning with /api/
+Since the front end will proxy requests to any url beginning with /api/
 from port 3000 to port 8000 in development
 
 example route:
@@ -50,7 +50,7 @@ app.post("/api/auth/register", (req, res) => {....})
 And in the front end, any requests being sent to the server should begin with the prefix as well:
 
 ```
-axios.post("/api/auth/register", {formDate}).then(result=>{....}).catch(err=>{....})
+axios.post("/api/auth/register", {formData}).then(result=>{....}).catch(err=>{....})
 ```
 
 This is being set up by setupProxy.js in development, and automatically handled by Heroku in deployment
